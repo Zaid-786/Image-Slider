@@ -28,9 +28,9 @@ function slideShow(num)             /* this is slideShow() function in which we 
             flag = 0;                       //then flag value is assign to 0
             num = 0;                        // then num value is assign to 0
         }
-        if(num<0)                         /* in this statement we passed a condition to check num is less than 0*/      
+        if(num<0)                           /* in this statement we passed a condition to check num is less than 0*/      
         {
-            flag=slides.length-1;           /*then flag value is assign to slides.length-1 */
+            flag=slides.length-1;           /*then flag value is assign to slides.length-1 means set last value of sildes*/
             num=slides.length-1;            /*then num value is assign to slides.length-1 */
 
         }
